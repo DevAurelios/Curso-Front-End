@@ -1,0 +1,1 @@
+alert("!!!!!EU NÃO AGUENTO MAIS VIVER SEM TAPIOCA!!!!!");

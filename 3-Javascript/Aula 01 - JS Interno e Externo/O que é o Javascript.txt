@@ -1,0 +1,3 @@
+Javascript é a linguagem de programação usada para adicionar interatividade ao seu site.
+
+(por exemplo: ações quando botões são pressionados, validações em formulários, mudanças dinâmicas na página, animações e muito mais.)
