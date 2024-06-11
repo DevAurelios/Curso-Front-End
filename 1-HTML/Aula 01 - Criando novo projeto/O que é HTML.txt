@@ -1,0 +1,3 @@
+Hyper Text Markup Language (Linguagem de Marcação de hiperTexto)
+
+É o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Responsável por textos, imagens etc...
