@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--(EVENTO ONRESIZE)<body onresize="console.log('Houve um redimencionamento')">
+<!--(14-EVENTO ONLOAD)<body onload="alert('Terminou de carregar')">-->
+<!--(15-6-EVENTO ONMOUSEDOWN)<body onmousedown="alert('Clicou na tela')">o onmousedown não funciona em baixo pq o body não esta em 100% da tela-->
+<!--(7-EVENTO ONMOUSEUP)<body onmouseup="alert('Clicou na tela')"-->
+
+    <h1>Aprendendo JavaScript</h1>
+    <h2>Eventos em JS</h2>
+    <p id="texto"></p>
+    <!--(1-EVENTO ONCLICK)<button onclick="eventoClick()">Clique aqui</button>-->
+    <!--(2-EVENTO ONDBLCLICK)<button ondblclick="eventoDblclick()">Clique aqui</button>-->
+    <button ondblclick="eventoDblclick()">Clique aqui</button><br><br>
+
+    <!--(9_2-EVENTO ONCHANGE)<select onchange="mudou()" id="itens"> //quando ele tiver uma mudança, ele vai ativar o "onchange"
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>-->
+    <select onchange="mudou()" id="itens"><!--quando ele tiver uma mudança, ele vai ativar o "onchange"-->
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
+
+    <br><br>
+
+    <!--(3-EVENTO ONMOUSEOVER)<div id="teste" onmouseover="viraVermelho()" style="margin: auto auto; width: 80%; height:200px; background-color: blue;"></div>-->
+    <!--(4-EVENTO ONMOUSEOUT)<div id="teste" onmouseout="viraAzul()" onmouseover="viraVermelho()" style="margin: auto auto; width: 80%; height:200px; background-color: blue;"></div>-->
+    <!--(5-EVENTO ONMOUSEMOVE)<div id="teste" onmousemove="adicionaTexto()" onmouseout="viraAzul()" onmouseover="viraVermelho()" style="margin: auto auto; width: 80%; height:200px; background-color: blue;"></div>-->
+    
+    <div id="teste" onmouseout="viraAzul()" onmouseover="viraVermelho()" style="margin: auto auto; width: 80%; height:200px; background-color: rgb(255, 255, 255);"></div>
+
+    <br>
+
+    <!--(8-EVENTO ONFOCUS)<input onfocus="limpaTexto()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa" value="Já vem com texto">-->
+
+    <!--(9_1-EVENTO ONCHANGE)<input onchange="mudou()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa" value="Já vem com texto">-->
+    <!--(10-EVENTO ONBLUR)<input onblur="eventoclick()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa" value="Já vem com texto">-->
+    <!--(12-EVENTO ONKEYPRESS)<input onkeypress="teclaPressionada()" onblur="eventoclick()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa" value="Já vem com texto">-->
+    <!--(11-EVENTO ONKEYDOWN)<input onkeydown="teclaPressionadA()" onblur="eventoclick()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa">-->
+    <!--(13-EVENTO ONKEYUP)<input onkeyup="teclaPressioNadA()" onblur="eventoclick()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa">-->
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
